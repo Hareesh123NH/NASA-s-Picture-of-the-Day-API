@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>NASA Picture of the Day</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!--Problem Statement Create an HTML file with a form that allows the user to select a date and a submit button. The form should have an ID of "search-form" and the input field should have an ID of "search-input".-->
+
+<!--Create a section in the HTML file with an ID of "current-image-container" where the data will be shown.-->
+
+<!--Create an unordered list in the HTML file with an ID of "search-history" where the user's past searches will be displayed.-->
+
+<!--Create a CSS file to style the HTML elements.-->
+<h1>NASA Picture of the Day</h1>
+
+<form id="search-form">
+    <label for="search-input">Select a Date:</label>
+    <input id="search-input" type="date" >
+    <button type="submit">Search</button>
+</form>
+
+<div id="main-container">
+    <div id="current-image-container"></div>
+
+    <div id="search-container">
+        <h2>Search History</h2>
+        <ul id="search-history"></ul>
+    </div>
+    
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
