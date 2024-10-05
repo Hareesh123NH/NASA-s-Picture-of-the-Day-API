@@ -53,7 +53,7 @@ function saveSearch(date){
 }
 
 function addSearchToHistory(){
-    // localStorage.removeItem('searchs');
+    // localStorage.removeItem('searchs'); 
     let searchs=JSON.parse(localStorage.getItem('searchs'))||[];
     searchHistoryList.innerHTML="";
     searchs.forEach(date=>{
